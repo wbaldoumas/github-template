@@ -9,12 +9,12 @@
 		"check": "prettier --ignore-path .gitignore --check . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'",
 		"commit": "cz",
 		"format": "prettier --ignore-path .gitignore --write . '!{CODE_OF_CONDUCT.md,LICENSE.md,_layouts/default.html}'",
-		"prepare": "husky"
+		"prepare": "prek install"
 	},
 	"devDependencies": {
+		"@j178/prek": "^0.3.4",
 		"commitizen": "^4.3.1",
 		"cz-conventional-changelog": "^3.3.0",
-		"husky": "^9.1.6",
 		"prettier": "^3.3.3"
 	},
 	"type": "module",
